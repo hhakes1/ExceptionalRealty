@@ -11,39 +11,53 @@
   <body>
 
   <!-- The body is the viewable portion of webpage. -->
-  <h1>Exceptional</h1>
-  <h2>Realty Group</h2>
+  <header> 
+    <h1>Exceptional</h1>
+    <h2>Realty Group</h2>
+  <nav> 
+    <!-- Links -->
+    <a href="index.html"> About </a>
+    <a href="NewProperties.html"> New Proporties </a>
+    <a href="RealEstateListings.html"> Listings </a>
+    <a href="MarketReport.html"> Market Report </a>
+    <a href="contact.html"> Contact </a>
 
-  <!-- Links -->
-  <a href="index.html"> About </a>
-  <a href="NewProperties.html"> New Proporties </a>
-  <a href="RealEstateListings.html"> Listings </a>
-  <a href="MarketReport.html"> Market Report </a>
-  <a href="contact.html"> Contact </a>
+    <a href="http://hud.gov" target="_blank"> Developement Link </a>
+  </nav>
+  </header>
 
-  <a href="http://hud.gov" target="_blank"> Developement Link </a>
+  <section id="featured-property"> 
+    <!-- How to insert image to go into folder use / and to leave current folder use ../ -->
+    <figure>
+      <img src="images/intro-pic.jpg" alt="A beautiful living room" title="Welcome">
+      <figcaption> 345 Carl Street </figcaption>
+    </figure>
+    <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p> Hello World </p>
+    <p> Hello Moon </p>
+  </section>
 
+<section id="promotional"> 
+    <!-- promo video-->
+    <figure> 
+        <video controls>
+          <source src="videos/promo-1.mp4" type="video/mp4"> 
+          <source src="videos/promo-1.ogv" type="video/ogv">
+          Your browser does not support HTML5 video. 
+          <a href="http://browsehappy.com"> Please upgrade your browser. </a>
+        </video>
+    <figcaption> Exceptional Realty video </figcaption>
+    </figure>
+</section>
 
-  <!-- How to insert image to go into folder use / and to leave current folder use ../ -->
-  <img src="images/intro-pic.jpg" alt="A beautiful living room" title="Welcome">
-
-  <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p> Hello World </p>
-
-  <p> Hello Moon </p>
-
-  <!-- promo video-->
-  <video controls>
-    <source src="videos/promo-1.mp4" type="video/mp4"> 
-    <source src="videos/promo-1.ogv" type="video/ogv">
-    Your browser does not support HTML5 video. 
-    <a href="http://browsehappy.com"> Please upgrade your browser. </a>
-  </video>
+<footer>
+  &copy; 2014 Exceptional Realty. 
+</footer>
 
   </body>
 </html>
